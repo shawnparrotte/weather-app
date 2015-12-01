@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's Forecast</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css' />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+  <div id="waiting">
+    <h1>Waiting<span id="one">.</span><span id="two">.</span><span id="three">.</span></h1>
+  </div>
+
+  <div id="main-container">
+    <div>
+      <h2>Today</h2>
+      <h4 id="tempuratureMinMax"></h4>
+      <p id="daySummary"></p>
+    </div>
+    <div>
+      <h2>Right Now</h2>
+      <h2 id="tempuratureNow"></h2>
+      <h2 id="nowSummary"></h2>
+    </div>
+    <div>
+      <h2>Chance of Rain</h2>
+      <h2 id="precipitation"></h2>
+      <h4 id="humidity"></h4>
+
+    </div>
+  </div>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

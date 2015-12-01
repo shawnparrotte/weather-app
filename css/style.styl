@@ -1,0 +1,43 @@
+body
+  background #82D3FC
+
+
+#waiting
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  display none
+  justify-content center
+  align-items center
+  min-height 100vh
+  h1
+    font-family 'Raleway', sans-serif;
+  #one, #two, #three
+    -moz-animation-delay: 2s;
+    -moz-animation-iteration-count: infinite;
+    display none
+    font-family 'Raleway', sans-serif;
+
+#main-container
+  justify-content center
+  flex-wrap wrap
+  min-height 100vh
+  align-items center
+  display none
+  div
+    display flex
+    flex-direction column
+    justify-content center
+    height 200px
+    width 350px
+    background radial-gradient(#20678C, #1F7BA1)
+    margin 5px
+    padding 8px
+    border-radius 12px
+    box-shadow 0 0 10px #619EBD
+    h1, h2, h3, h4, p
+      flex-basis 33%
+      font-family 'Raleway', sans-serif;
+      color white
+      text-align center
+    #precipitation
+      flex-grow 2
